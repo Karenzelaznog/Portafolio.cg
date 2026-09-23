@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caren González Meléndez · Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#top" class="logo">Caren González</a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#about" class="nav-link">Acerca de mí</a></li>
+          <li><a href="#skills" class="nav-link">Habilidades</a></li>
+          <li><a href="#projects" class="nav-link">Proyectos</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO / ACERCA DE MÍ -->
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <p class="hero-kicker">Portafolio personal</p>
+        <h1>Caren González Meléndez</h1>
+        <p class="hero-role">Futura desarrolladora web</p>
+        <p class="hero-bio">
+          Tengo 17 años y curso cuarto semestre, donde estoy aprendiendo programación paso a paso.
+          Me gusta programar páginas web y, cuando no estoy frente al código, disfruto perderme
+          en un buen libro. Estoy construyendo mi camino como desarrolladora, un proyecto a la vez.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contact" class="btn btn-outline">Contáctame</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <img src="img/caren.jpg" alt="Retrato de Caren González Meléndez">
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="skills" id="skills">
+      <div class="section-heading">
+        <h2>Habilidades</h2>
+        <p>Lo que domino hasta ahora, y en lo que sigo practicando cada día.</p>
+      </div>
+
+      <div class="skills-list">
+        <div class="skill" data-level="50">
+          <div class="skill-info">
+            <span class="skill-name">HTML</span>
+            <span class="skill-value">50%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-bar"></div>
+          </div>
+        </div>
+
+        <div class="skill" data-level="20">
+          <div class="skill-info">
+            <span class="skill-name">CSS</span>
+            <span class="skill-value">20%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-bar"></div>
+          </div>
+        </div>
+
+        <div class="skill" data-level="30">
+          <div class="skill-info">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-value">30%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-bar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="projects" id="projects">
+      <div class="section-heading">
+        <h2>Proyectos</h2>
+        <p>Un vistazo a lo que he construido.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-card-body">
+            <span class="project-tag">Tienda online</span>
+            <h3>SkinKary</h3>
+            <p>
+              Tienda online de skincare creada en Colombia, enfocada en rutinas simples y
+              efectivas para todo tipo de piel: no tiene que ser complicado ni costoso.
+              En SkinKary encuentras productos seleccionados con ingredientes naturales y
+              fórmulas que sí funcionan, pensados para piel latina: clima húmedo, sol fuerte
+              y vida real.
+            </p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="https://karenzelaznog.github.io/Jovenes-CreaTivos/" class="project-link" target="_blank" rel="noopener noreferrer">
+              Ver proyecto en vivo
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="contact-intro">
+          <h2>Hablemos</h2>
+          <p>
+            ¿Tienes un proyecto en mente o quieres saludar? Escríbeme por el formulario
+            o encuéntrame en los siguientes lugares.
+          </p>
+
+          <ul class="contact-details">
+            <li>
+              <span class="contact-label">Correo</span>
+              <a href="mailto:jakejay271@gmail.com">jakejay271@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/Karenzelaznog" target="_blank" rel="noopener noreferrer">github.com/Karenzelaznog</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required minlength="2">
+            <span class="field-error" id="name-error"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+            <span class="field-error" id="email-error"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" placeholder="Cuéntame en qué puedo ayudarte" required minlength="10"></textarea>
+            <span class="field-error" id="message-error"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+          <p class="form-success" id="form-success" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Caren González Meléndez. Todos los derechos reservados.</p>
+    <ul class="footer-links">
+      <li><a href="mailto:jakejay271@gmail.com">Correo</a></li>
+      <li><a href="https://github.com/Karenzelaznog" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    </ul>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
